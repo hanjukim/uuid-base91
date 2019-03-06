@@ -1,0 +1,47 @@
+{
+  "name": "uuid-base91",
+  "version": "1.0.0",
+  "description": "Compression codec for uuid to base91 in less than 20 bytes",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ava",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanjukim/uuid-base91"
+  },
+  "keywords": [
+    "uuid",
+    "base91",
+    "encode",
+    "decode",
+    "codec",
+    "guid",
+    "uid",
+    "id",
+    "RFC4122"
+  ],
+  "author": {
+    "name": "Hanju Kim",
+    "email": "hanjukim@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hanjukim/uuid-base91/issues"
+  },
+  "homepage": "https://github.com/hanjukim/uuid-base91#readme",
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "ava": "^0.25.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "typescript": "^3.3.3333",
+    "uuid": "^3.3.2"
+  },
+  "dependencies": {
+    "node-base91": "^0.3.4"
+  }
+}

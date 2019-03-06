@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node bench.js"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4"
+  },
+  "dependencies": {
+    "slugid": "^2.0.0",
+    "uuid-base64": "^1.0.0",
+    "uuid-d64": "^1.0.5"
+  }
+}
