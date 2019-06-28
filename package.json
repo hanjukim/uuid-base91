@@ -1,6 +1,6 @@
 {
   "name": "uuid-base91",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compression codec for uuid to base91 in less than 20 bytes",
   "main": "lib/index.js",
   "scripts": {
@@ -33,12 +33,12 @@
   },
   "homepage": "https://github.com/hanjukim/uuid-base91#readme",
   "devDependencies": {
-    "@types/node": "^11.9.5",
-    "ava": "^0.25.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "typescript": "^3.3.3333",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@types/node": "^12",
+    "ava": "^2",
+    "typescript": "^3",
     "uuid": "^3.3.2"
   },
   "dependencies": {
