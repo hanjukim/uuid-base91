@@ -1,6 +1,6 @@
 {
   "name": "uuid-base91",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compression codec for uuid to base91 in less than 20 bytes",
   "main": "lib/index.js",
   "scripts": {
