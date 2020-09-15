@@ -1,5 +1,5 @@
 const test = require('ava');
-const uuid = require('uuid');
+const uuid = require('uuid').v4;
 const { encode, decode } = require('.');
 
 test('decoded data integrity', t => {
